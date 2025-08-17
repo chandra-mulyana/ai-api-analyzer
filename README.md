@@ -1,8 +1,21 @@
-# Aplikasi untuk analisa API
+# Aplikasi untuk analisa API menggunakan Ai
 
 Menggunakan OpenRouter dan Gemini
 
-Isi dari file `.env`
+## Tech Stack
+
+-   Nextjs 15
+-   Shadcn UI
+
+## Cara :
+
+Clone repo , lalu jalankan
+
+```javascript
+npm install
+```
+
+Buat file `.env` yang isinya :
 
 ```javascript
 # --- OpenRouter ---
@@ -22,9 +35,15 @@ GEMINI_API_KEY=Diisi API KEY Gemini
 ## OpenRouter
 
 Link nya : https://openrouter.ai/
-Silahkan login kemudian masuk ke menu Keys, dan buat API Keys nya
+
+<p>Silahkan login kemudian masuk ke menu Keys, dan buat API Keys nya</br>
+Nanti bisa pilih juga model yang gratis.</p>
 
 ## Gemini
 
 Link nya : https://aistudio.google.com/apikey
-Silahkan buat API Keys
+
+<p>Silahkan buat API Keys</br>
+Untuk Gemini versi gratis ada limitasi nya, silahkan akses ke :</p>
+
+https://ai.google.dev/gemini-api/docs/rate-limits
